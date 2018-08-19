@@ -23,7 +23,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
     
-    margin-top: 70px;
+    
 }
 
 /* Titles */
@@ -85,17 +85,17 @@ a:after {
 .navbar {
 	font-weight: 800;
 	font-size: 14px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: ;
+	padding-bottom: 10px;
 }
 
 .navbar-inverse {
-	background: white;
+	background: #ffcccc;
 	
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background: #ff7878
+	background: #ff7878;
 }
 
 .navbar-inverse .navbar-brand  {
@@ -437,19 +437,17 @@ a:after {
      div.main-content { 
        /*padding-top: 90px;*/
      
-       background-color: #bf1e2e;
+       background-color: white;
        height: 50px;
        margin-top: -70px;
     }
 
-#logo {
+.logo {
     height: 70px;
+    float: left;
+    src="Flogo.png"
   
-    margin-left: 50px;
-    margin-bottom: 25px;
-    margin-top: -35px;
-    float: bottom;
-    float: top;
+   
 
 }
 
@@ -472,3 +470,30 @@ a:after {
     color: black;
     margin-top: 25px;
 }
+
+
+.vc_empty_space {
+  background-color: rgb(153,0,0);
+  height: 360px;
+}
+
+.banner {
+  height: 60px;
+  background-color: #bf1e2e;
+  font-family: "Lato";
+  padding: 10px;
+}
+
+.serviceLinks {
+  border: 1px solid black;
+  padding: 8px;
+  background-color: #d1d1e0;
+}
+
+.phone , .email {
+  font-size: 18px;
+}
+
+
+
+
