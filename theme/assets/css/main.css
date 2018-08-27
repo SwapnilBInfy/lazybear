@@ -478,7 +478,7 @@ a:after {
 }
 
 .banner {
-  height: 60px;
+  height: 80px;
   background-color: #bf1e2e;
   font-family: "Lato";
   padding: 10px;
@@ -494,6 +494,24 @@ a:after {
   font-size: 18px;
 }
 
+.submitForm {
+  font-family: "Lato"
 
+
+}
+
+.dMarketing {
+ border: 1px solid black;
+ border-top:none;
+  padding-bottom: 20px;
+  padding-top:50px;
+  margin-top: -69px;
+  width: 100%;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIZg4HZiR8bStGIuVS7V2XydfJs0DYXBt0alHC0Ao6bg1n0ky2");
+  color: #bf1e2e;
+  font-weight: bolder;
+  font-size: 50px;
+
+}
 
 
